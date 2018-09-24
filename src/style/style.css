@@ -1,0 +1,67 @@
+.marketing-button {
+    display: inline-block;
+    padding: 1.1em 2.7em;
+    border-radius: 5px;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1.133;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: 150ms ease;
+    transition: 150ms ease;
+    -webkit-transition-property: background-color, border-color, color, -webkit-box-shadow;
+    transition-property: background-color, border-color, color, -webkit-box-shadow;
+    transition-property: background-color, border-color, box-shadow, color;
+    transition-property: background-color, border-color, box-shadow, color, -webkit-box-shadow;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    background-color: #5c6ac4;
+    color: #ffffff;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+}
+.marketing-input{
+    display: inline-block;
+    height: 1.3em;
+    width: 300px;
+    margin: 0px 10px 15px 10px;
+    padding: 1em 1em;
+    color: #30373b;
+    font-family: ShopifySans, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    -webkit-box-shadow: 0 0 0 1px #c4cdd5;
+    box-shadow: 0 0 0 1px #c4cdd5;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    -webkit-transition: padding 150ms;
+    transition: padding 150ms;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+}
+.container {
+    display: grid;
+  }
+  
+  .left-half {
+    grid-column: 1;
+    margin: 5px;
+  }
+  
+  .right-half {
+    grid-column: 2;
+    margin: 5px;
+
+  }
