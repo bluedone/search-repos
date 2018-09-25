@@ -1,12 +1,12 @@
 
 # Web Developer Intern Challenge
 
-#Setup
+# Setup
 
-npm install --global gatsby-cli
-gatsby build
-gatsby develop
-http://localhost:8000/
+```npm install --global gatsby-cli```
+```gatsby build```
+```gatsby develop```
+```http://localhost:8000/```
 
 ![dasboard](dashboard.JPG)
 
@@ -29,7 +29,7 @@ Performing a search should render a list of **10 repositories**
 		 - clicking the "Add" button should add the repo to the favourites list
         When the search input field is cleared, the list of results should cleared
          When the number of favourites is **more than one**
-	    DONE- render a **list of favourited repositories**
+	    - render a **list of favourited repositories**
 		Each item should
 		- render the name with owner *(Ex. shopify/polaris)* and link to the repo's page on Github
 		- render the name of the primary language
